@@ -1,0 +1,42 @@
+footer{
+    background-color: var(--color-primary);
+    padding-top: 8rem;
+    box-shadow: 0 -1rem 1.5rem hsla(var(--primary-hue),68%, 42%, 20%);
+    transition: var(--transition);
+}
+footer .nav__menu{
+justify-content: center;
+
+}
+.footer__socials{
+    width: fit-content;
+    display: flex;
+    gap: 1.5rem;
+    margin: 3rem auto 4rem;
+}
+/* Updated CSS for footer icons */
+.footer__socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem; 
+    height: 2.5rem; 
+    background-color: white;
+    color: black;
+    border-radius: 40%; 
+    transition: var(--transition); 
+  }
+  
+  .footer__socials a:hover {
+    background-color: black; 
+    color: white; 
+    transform: translateY(-0.3rem);
+  }
+  .footer__copyright{
+    color: white;
+    text-align: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 1.5rem 0;
+    opacity: 0.8;
+
+  }

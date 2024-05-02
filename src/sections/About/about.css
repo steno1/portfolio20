@@ -1,0 +1,102 @@
+.about__container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap:20px
+  }
+  
+  .about__left {
+    flex: 0 0 35%; /* Set the width of the left section */
+    
+  }
+  
+  .about__right {
+    flex: 0 0 65%; /* Set the width of the right section */
+    padding-left: 20px; /* Adjust spacing between left and right sections */
+  }
+  .about__portrait{
+    height: fit-content;
+    max-height: 40rem;
+    border: 0.5rem solid var(--color-white);
+    transition: var(--transition);
+  }
+  .about__portrait:hover{
+    border-width: 0;
+    
+  }
+  
+  .about__portrait img {
+    width: 18.75rem; 
+    height: 26.875rem; 
+  }
+  .about__cards{
+    margin: 3rem 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    
+  }
+  .card.about__card{
+    text-align: center;
+    
+  }
+  .about__card-icon{
+font-size: 1.3rem;
+color: var(--color-black);
+border: var(--border-radius-3);
+width: fit-content;
+margin-inline: auto;
+padding: 0.6rem;
+display: flex;
+align-items: center;
+transition: var(--transition);
+  }
+
+  .about__card-icon:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: var(--border-radius-3);
+  }
+  
+  .card.about__card h5{
+    margin: 1rem 0;
+  }
+  .about__right P{
+    margin-bottom: 0.8rem;
+
+  }
+  .about__right .btn{
+    margin-top: 2.5rem;
+  }
+ /* MEDIA QUERIES FOR TABLETS */
+@media screen and (max-width: 767px) {
+    .about__container {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+     padding: 10px;
+    }
+  
+    .about__left {
+      display: none; /* Hide the left section */
+    }
+  
+    .about__right {
+      width: 100%; /* Occupy full width */
+      padding-left: 0; /* Remove padding */
+    }
+    .about__right h2{
+        text-align: center;
+    }
+  
+    .about__portrait {
+      margin-bottom: 20px; /* Add spacing between portrait and content */
+    }
+  
+    .about__cards {
+      grid-template-columns: repeat(2, 1fr); /* Display cards in 2 columns */
+    }
+  
+    .about__card {
+      margin: 0 auto 20px; /* Center cards and add spacing */
+    }
+  }
+  

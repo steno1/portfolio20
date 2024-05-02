@@ -1,0 +1,52 @@
+.services__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+    width: fit-content;
+}
+.card.service{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    
+}
+
+.service__icon {
+    background: var(--color-primary);
+    padding: 0.8rem;
+    border-radius: var(--border-radius-3);
+    font-size: 1.5rem;
+    color: var(--color-white);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem; /* Adjust the width of the icon container */
+    height: 2.5rem; /* Adjust the height of the icon container */
+  }
+.service:hover .service__icon{
+    background: var(--color-light);
+    color: var(--color-primary);
+}
+.service h4{
+    margin-bottom: 0.7rem;
+}
+/* MEDIA QUERIES ON TABLETS*/
+@media screen and (max-width:1024px) {
+    .services__container{
+        gap: 1.5rem;
+        width: 96%;
+    }
+}
+/* MEDIA QUERIES ON PHONES*/
+
+@media screen and (max-width:600px) {
+    .services__container{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+       width: 96%;
+    }
+    .card.service{
+        gap: 1.2rem;
+    }
+}
