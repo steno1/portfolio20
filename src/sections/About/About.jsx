@@ -3,7 +3,7 @@ import "./about.css";
 import Card from "../../components/card/Card"; // Component for rendering individual cards
 import { IoMdDownload } from "react-icons/io"; // Icon component for download button
 import aboutData from "../../data/aboutData"; // Data containing information for cards
-import cv from "../../asset/OnuPrinceleyToochukwuResume.pdf"; // Link to the CV (resume) file
+import cv from "../../asset/RESUME.pdf"; // Link to the CV (resume) file
 import myPics from "../../asset/princeley.jpg"; // Image of the developer
 
 // About component function
