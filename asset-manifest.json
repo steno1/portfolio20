@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio20/static/css/main.52c1e91d.css",
-    "main.js": "/portfolio20/static/js/main.50e2c5f7.js",
+    "main.js": "/portfolio20/static/js/main.b9fb378f.js",
     "static/media/princeley.jpg": "/portfolio20/static/media/princeley.b9f7f5728a76fd0f7b49.jpg",
     "static/media/eCommerce.jpg": "/portfolio20/static/media/eCommerce.b3b87c1abfb42b24fb87.jpg",
     "static/media/portfolio.jpg": "/portfolio20/static/media/portfolio.2dcec203e41e262b10f1.jpg",
     "static/media/task.jpg": "/portfolio20/static/media/task.27de64a8d11219e09825.jpg",
-    "static/media/OnuPrinceleyToochukwuResume.pdf": "/portfolio20/static/media/OnuPrinceleyToochukwuResume.fe89070683e480043c30.pdf",
+    "static/media/RESUME.pdf": "/portfolio20/static/media/RESUME.44167bf887a4303f1ae9.pdf",
     "index.html": "/portfolio20/index.html",
     "main.52c1e91d.css.map": "/portfolio20/static/css/main.52c1e91d.css.map",
-    "main.50e2c5f7.js.map": "/portfolio20/static/js/main.50e2c5f7.js.map"
+    "main.b9fb378f.js.map": "/portfolio20/static/js/main.b9fb378f.js.map"
   },
   "entrypoints": [
     "static/css/main.52c1e91d.css",
-    "static/js/main.50e2c5f7.js"
+    "static/js/main.b9fb378f.js"
   ]
 }
