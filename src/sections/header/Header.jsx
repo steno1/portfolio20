@@ -3,7 +3,7 @@ import "aos/dist/aos.css"
 
 import Aos from "aos" // AOS library for scroll animations
 import headerData from "../../data/headerData" // Data containing social media icons and links
-import myPics from "../../asset/princeley.jpg" // Image of the developer
+import myPics from "../../asset/Too.png" // Image of the developer
 import { useEffect } from "react" // Importing useEffect hook from React
 
 // Header component function

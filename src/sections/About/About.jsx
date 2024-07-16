@@ -4,7 +4,7 @@ import Card from "../../components/card/Card"; // Component for rendering indivi
 import { IoMdDownload } from "react-icons/io"; // Icon component for download button
 import aboutData from "../../data/aboutData"; // Data containing information for cards
 import cv from "../../asset/RESUME.pdf"; // Link to the CV (resume) file
-import myPics from "../../asset/princeley.jpg"; // Image of the developer
+import myPics from "../../asset/Too.png"; // Image of the developer
 
 // About component function
 const About = () => {
