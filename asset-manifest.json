@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio20/static/css/main.52c1e91d.css",
-    "main.js": "/portfolio20/static/js/main.54f0dca9.js",
+    "main.js": "/portfolio20/static/js/main.f0356c5d.js",
+    "static/media/peoplesClinic.PNG": "/portfolio20/static/media/peoplesClinic.88dd4cbc9b2e196a5fa8.PNG",
     "static/media/eCommerce.jpg": "/portfolio20/static/media/eCommerce.b3b87c1abfb42b24fb87.jpg",
     "static/media/portfolio.jpg": "/portfolio20/static/media/portfolio.2dcec203e41e262b10f1.jpg",
     "static/media/task.jpg": "/portfolio20/static/media/task.27de64a8d11219e09825.jpg",
@@ -10,10 +11,10 @@
     "static/media/solarCalculator.PNG": "/portfolio20/static/media/solarCalculator.f97e8e5f981de2bdafa8.PNG",
     "index.html": "/portfolio20/index.html",
     "main.52c1e91d.css.map": "/portfolio20/static/css/main.52c1e91d.css.map",
-    "main.54f0dca9.js.map": "/portfolio20/static/js/main.54f0dca9.js.map"
+    "main.f0356c5d.js.map": "/portfolio20/static/js/main.f0356c5d.js.map"
   },
   "entrypoints": [
     "static/css/main.52c1e91d.css",
-    "static/js/main.54f0dca9.js"
+    "static/js/main.f0356c5d.js"
   ]
 }
