@@ -3,6 +3,8 @@ import portfolio from "../asset/portfolio.jpg";
 import solarCalculator from "../asset/solarCalculator.PNG";
 import task from "../asset/task.jpg";
 import peoplesClinic from "../asset/peoplesClinic.PNG";
+import cryptoCap from "../asset/cryptoCap.PNG"
+
 
 const portfolioData = [
   {
@@ -32,17 +34,27 @@ const portfolioData = [
     demo: "https://stenosupermarket1.onrender.com/",
     githubLink: "https://github.com/steno1/eCommerceRedone"
   },
-  {
+
+    {
     id: 4,
     category: "Frontend",
     image: portfolio,
     title: "My Portfolio Site (Frontend)",
     description: "A frontend-focused portfolio site built using React, Context API, HTML, and CSS. It includes sections like Header, Home, About, Portfolio, Projects, etc.",
     demo: "https://steno1.github.io/portfolio20/",
-    githubLink: "https://github.com/steno1/portfolio20"
+    githubLink: "https://github.com/steno1/crypto/tree/master"
   },
   {
     id: 5,
+    category: "Frontend",
+    image: cryptoCap,
+    title: "CryptoCap (Frontend)",
+    description: "CryptoCap is a lightweight crypto tracker built with React, TypeScript, and CSS Modules. It fetches live data from the CoinGecko API, allowing users to search coins, add their USD investments, and monitor portfolio value in real time.",
+    demo: "https://coinschecker.netlify.app/",
+    githubLink: "https://github.com/steno1/portfolio20"
+  },
+  {
+    id: 6,
     category: "Wordpress",
     image: peoplesClinic,
     title: "Peoples Clinic Limited (Wordpress)",
