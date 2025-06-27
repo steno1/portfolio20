@@ -2,7 +2,7 @@ import "./about.css";
 import Card from "../../components/card/Card";
 import { IoMdDownload } from "react-icons/io";
 import aboutData from "../../data/aboutData";
-import cv from "../../asset/RESUME2.pdf";
+import cv from "../../asset/RESUME4.pdf";
 import myPics from "../../asset/Too.png";
 
 const About = () => {
