@@ -1,8 +1,8 @@
-import ecommerce from "../asset/eCommerce.jpg";
+
 import portfolio from "../asset/portfolio.jpg";
 import solarCalculator from "../asset/solarCalculator.PNG";
 import task from "../asset/task.jpg";
-import peoplesClinic from "../asset/peoplesClinic.PNG";
+import financeTracker from "../asset/financetracker1.JPG";
 import cryptoCap from "../asset/cryptoCap.PNG"
 
 
@@ -50,23 +50,15 @@ const portfolioData = [
     githubLink: "https://github.com/steno1/taskManagementApp/tree/master"
   },
 
-   {
-    id: 5,
-    category: "MERN stack",
-    image: ecommerce,
-    title: "eCommerce Platform (MERN)",
-    description: "An eCommerce platform built with React, Redux, and integrated PayPal. Includes features like rating and comment sections, search functionalities, and more.",
-    demo: "https://stenosupermarket1.onrender.com/",
-    githubLink: "https://github.com/steno1/eCommerceRedone"
-  },
+   
   
   {
-    id: 6,
-    category: "Wordpress",
-    image: peoplesClinic,
-    title: "Peoples Clinic Limited (Wordpress)",
-    description: "Peoples Clinic Limited is a leading healthcare provider in Nigeria, offering high-quality services. We prioritize patient well-being with personalized care.\n- Laboratory Services\n- Surgery\n- Delivery & Circumcision\n\nBuilt with WordPress, providing world-class care with a personal touch.",
-    demo: "https://peoplesclinic.com.ng/"
+    id: 5,
+    category: "Next js",
+    image:  financeTracker ,
+    title: "Finance Tracker (Next js)",
+    description: "A modern finance tracking web app built with Next.js, TypeScript, and Tailwind CSS. It allows users to securely log in, manage income and expenses, and view financial summaries through interactive charts. Features API routes, JWT authentication, transaction CRUD operations, and a fully responsive dashboard.",
+    demo: "https://smartfinance-tracker.vercel.app/"
   }
 ];
 
